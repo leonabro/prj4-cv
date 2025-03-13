@@ -38,12 +38,12 @@ body {
 	font-weight: 300;
 	font-style: italic;
 	color: #fae7c9;
-	font-size: 18px
+	font-size: 18px;
   }
 
   h2 {
 	font-family: "Poppins", sans-serif;
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 25px;
   }
 
@@ -59,8 +59,18 @@ body {
 	font-weight: 500;
   }
 
+  h6 {
+	font-size: 15px;
+	font-weight: 300;
+	font-style: italic;
+  }
+
 .changecolorbar {
 	background-color:#fae7c9;
+}
+
+.languageborder{
+	border: 3px #706134;
 }
 
 /* Styles for lists in the document */
