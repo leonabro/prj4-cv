@@ -3,6 +3,7 @@
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=IM+Fell+DW+Pica&family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* Styles for the body */
 
 body {
@@ -27,7 +28,7 @@ body {
 }
 
 .poppins-regular {
-	font-family: "Poppins", sans-serif;
+	font-family: "Poppins", serif;
 	font-weight: 400;
 	color: #fae7c9;
 	font-style: normal;
@@ -42,9 +43,10 @@ body {
   }
 
   h2 {
-	font-family: "Poppins", sans-serif;
+	font-family: "DM Serif Text", serif;
 	font-weight: 500;
-	font-size: 25px;
+	font-style: normal;
+	font-size: 24px;
   }
 
   h4 {
@@ -69,9 +71,14 @@ body {
 	background-color:#fae7c9;
 }
 
-.languageborder{
-	border: 3px #706134;
+.heading-background { color:#706134; 
+	background-color:#e1cd8f;
+	padding-left: 3%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-bottom: 4%;
 }
+
 
 /* Styles for lists in the document */
 
